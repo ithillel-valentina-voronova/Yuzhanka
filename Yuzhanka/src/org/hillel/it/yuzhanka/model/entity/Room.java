@@ -1,8 +1,8 @@
 package org.hillel.it.yuzhanka.model.entity;
 
-public class room {
+public class Room {
 boolean enabled;
 int numberOfRoom;
 int numberOfPlaces;
-//TypeOfRoom typeOfRoom;
+TypeOfRoom typeOfRoom;
 }

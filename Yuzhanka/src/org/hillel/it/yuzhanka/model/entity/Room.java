@@ -1,9 +1,13 @@
 package org.hillel.it.yuzhanka.model.entity;
 
 public class Room {
-boolean enabled;
-int roomNumber;
-String roomType;
+protected int roomNumber;
 int numberOfPlaces;
+boolean bathroom;
+boolean airconditioner;
+boolean tv;
 float price;
+boolean enabled;
+
+
 }

@@ -1,4 +1,4 @@
-
+package org.hillel.it.yuzhanka.model.entity;
 public class Reservation
 {
 	int guestUin; // номер гостя, который зарезервировал

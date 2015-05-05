@@ -1,3 +1,5 @@
+package org.hillel.it.yuzhanka.model.entity;
+
 
 public class Feedback 
 {

@@ -1,4 +1,5 @@
 //import java.text.SimpleDateFormat;
+package org.hillel.it.yuzhanka.model.entity;
 import java.util.Date;
 
 

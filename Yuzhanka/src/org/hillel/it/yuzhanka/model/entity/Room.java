@@ -1,6 +1,6 @@
 //сделать все поля класса private ???
 
-
+package org.hillel.it.yuzhanka.model.entity;
 public class Room 
 {
 	

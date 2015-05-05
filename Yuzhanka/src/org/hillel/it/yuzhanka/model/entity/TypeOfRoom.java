@@ -1,23 +1,27 @@
 package org.hillel.it.yuzhanka.model.entity;
 
+import java.util.Date;
+
 public class TypeOfRoom {
-	int id;
-	String titleOfType;
-	int numberOfPlaces;
-	boolean waterCloset;
-	boolean shower;
-	boolean airConditioner;
-	boolean tv;
-	boolean refrigerator;
-	int descriptionID; // Здесь будеть храниться ID описания номера из таблицы
-						// descriptions храняцейся в БД
-	String linkToPhoto1;
-	String linkToPhoto2;
-	String linkToPhoto3;
-	String linkToPhoto4; // ссылки на фотографии лежащие на сервере
-	String linkToPhoto5;
-	String linkToPhoto6;
-	String linkToPhoto7;
-	String linkToPhoto8;
+	private int id;
+	private Date createdAt;
+	private User createdBy;
+	private String titleOfType;
+	private int numberOfPlaces;
+	private boolean waterCloset;
+	private boolean shower;
+	private boolean airConditioner;
+	private boolean tv;
+	private boolean refrigerator;
+	private String description; //Будет хранить статью с описанием.Возможно стоит вынести в отдельный тип. 
+	
+	private String linkToPhoto1;
+	private String linkToPhoto2;
+	private String linkToPhoto3;
+	private String linkToPhoto4; // ссылки на фотографии лежащие на сервере
+	private String linkToPhoto5;
+	private String linkToPhoto6;
+	private String linkToPhoto7;
+	private String linkToPhoto8;
 
 }

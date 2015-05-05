@@ -1,8 +1,13 @@
 package org.hillel.it.yuzhanka.model.entity;
 
+import java.util.Date;
+
 public class Room {
-boolean enabled;
-int numberOfRoom;
-int numberOfPlaces;
-TypeOfRoom typeOfRoom;
+private int id;
+private Date createdAt;
+private User createdBy;
+private boolean enabled;
+private int numberOfRoom;
+private int numberOfPlaces;
+private TypeOfRoom typeOfRoom;
 }

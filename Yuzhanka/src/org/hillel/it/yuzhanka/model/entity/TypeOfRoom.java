@@ -13,15 +13,8 @@ public class TypeOfRoom {
 	private boolean airConditioner;
 	private boolean tv;
 	private boolean refrigerator;
-	private String description; //Будет хранить статью с описанием.Возможно стоит вынести в отдельный тип. 
-	
-	private String linkToPhoto1;
-	private String linkToPhoto2;
-	private String linkToPhoto3;
-	private String linkToPhoto4; // ссылки на фотографии лежащие на сервере
-	private String linkToPhoto5;
-	private String linkToPhoto6;
-	private String linkToPhoto7;
-	private String linkToPhoto8;
+	private String description; // Будет хранить статью с описанием.Возможно
+								// стоит вынести в отдельный тип.
+	private String linkToPhoto;
 
 }

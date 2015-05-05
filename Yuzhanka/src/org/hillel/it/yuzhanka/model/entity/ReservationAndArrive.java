@@ -1,5 +1,7 @@
 package org.hillel.it.yuzhanka.model.entity;
 
+import java.security.acl.Owner;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class ReservationAndArrive {
@@ -7,6 +9,7 @@ public class ReservationAndArrive {
 	private Date createdAt;
 	private User createdBy; // может быть как менеджер так и сам клиент
 	private boolean isAcctive;
+	private ArrayList<Room>[] reservedRooms;
 	private String nubberForClient; // что-бы номер был красивый дата+номер
 									// 20150417003
 	private User ownerOfReservation;
@@ -26,5 +29,5 @@ public class ReservationAndArrive {
 	private Date dateWhenAmountIsGot;
 	private int paymantMethod;// 0 - наличные 1 - картой
 								// 2 - денежный перевод...
-
+	
 }

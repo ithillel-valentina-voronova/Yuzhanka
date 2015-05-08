@@ -6,12 +6,12 @@ public class LuxRoom extends Room {
 	private boolean bathroom;
 	private boolean airconditioner;
 
-	public LuxRoom(boolean enable, int numberOfPlaces, int roomNumber) {
+	public LuxRoom(boolean active, int numberOfPlaces, int roomNumber) {
 		super();
 		this.airconditioner = true;
 		this.bathroom = true;
 		this.tv = true;
-		this.enabled = enable;
+		this.active = active;
 		this.numberOfPlaces = numberOfPlaces;
 		this.roomNumber = roomNumber; 
 	}
